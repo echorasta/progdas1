@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menghitung Luas Segitiga</title>
+    <script type="text/javascript">
+        function hitungLuas(){
+            alas=document.getElementById("txtAlas").value;
+            tinggi=document.getElementById("txtTinggi").value;
+            Luas=1/2*alas*tinggi;
+            document.getElementById("txtLuas").value = Luas;
+        }
+    </script>
+    
+</head>
+<body>
+    <center>
+        <b><h3>MENGHITUNG LUAS SEGITIGA</h3></b>
+        <br/>
+        <br/>
+           Alas   : <input type="text" id="txtAlas" name="txtAlas"><br/><br/>
+           Tinggi : <input type="text" id="txtTinggi" name="txtTinggi"><br/><br/>
+           <input type="button" id="btnHitung" value="Hitung Luas" onclick="hitung Luas();">
+           : <input type="text" id="txtLuas" name="txtLuas"> 
+    </center>
+
+    
+</body>
+</html>
